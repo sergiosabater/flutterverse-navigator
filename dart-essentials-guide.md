@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎯 Dart Fundamentals Bible 📘
+# 🎯 Dart Essentials Guide 📘
 
 ### *Master the language that powers Flutter*
 
