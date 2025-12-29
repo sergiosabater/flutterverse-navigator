@@ -2,28 +2,28 @@
 
 # 🛸 The Flutterverse Navigator 🌌
 
-### *Tu brújula definitiva para dominar Flutter y Dart*
+### *Your definitive compass to master Flutter and Dart*
 
 [![Flutter Version](https://img.shields.io/badge/Flutter-%3E%3D%203.0-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://docs.flutter.dev/)
 [![Dart Version](https://img.shields.io/badge/Dart-%3E%3D%203.0-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-**Construye para cualquier pantalla desde un único código base**  
+**Build for any screen from a single codebase**  
 `iOS` • `Android` • `Web` • `Desktop` • `Embedded`
 
 ---
 
 </div>
 
-## 🎯 ¿Por qué este recurso?
+## 🎯 Why this resource?
 
-Dominar Flutter no es solo conocer widgets, sino **entender el framework reactivo** y el **poder de Dart** que lo impulsa. Este repositorio centraliza la "Biblia" de documentación oficial y comunitaria para convertirte en un maestro del desarrollo multiplataforma.
+Mastering Flutter isn't just about knowing widgets, it's about **understanding the reactive framework** and the **power of Dart** that drives it. This repository centralizes the "Bible" of official and community documentation to turn you into a cross-platform development master.
 
 ```dart
 void main() {
   runApp(
     MaterialApp(
-      home: YourDreamsApp(), // 👈 ¡Empieza aquí tu viaje!
+      home: YourDreamsApp(), // 👈 Start your journey here!
     ),
   );
 }
@@ -31,48 +31,48 @@ void main() {
 
 ---
 
-## 🏗️ Pilares del Conocimiento
+## 🏗️ Pillars of Knowledge
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 💙 **Flutter: El Toolkit de UI**
+### 💙 **Flutter: The UI Toolkit**
 
 > *"Beautiful, fast, and portable"*
 
-#### 📚 Documentación Esencial
-- 🎓 [**Documentación Oficial**](https://docs.flutter.dev/)  
-  *Tu punto de partida definitivo*
+#### 📚 Essential Documentation
+- 🎓 [**Official Documentation**](https://docs.flutter.dev/)  
+  *Your definitive starting point*
 
 - 🍳 [**Flutter Cookbook**](https://docs.flutter.dev/cookbook)  
-  *Recetas listas para usar*
+  *Ready-to-use recipes*
 
 - 🎬 [**Widget of the Week**](https://www.youtube.com/playlist?list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG)  
-  *Aprende visualmente en minutos*
+  *Learn visually in minutes*
 
 - 🗺️ [**Roadmap.sh Flutter**](https://roadmap.sh/flutter)  
-  *Tu camino profesional visualizado*
+  *Your professional path visualized*
 
 </td>
 <td width="50%" valign="top">
 
-### 🎯 **Dart: El Motor**
+### 🎯 **Dart: The Engine**
 
 > *"Optimized for UI, productive, fast"*
 
-#### 🚀 Recursos Fundamentales
+#### 🚀 Fundamental Resources
 - 📖 [**Language Tour**](https://dart.dev/guides/language/language-tour)  
-  *Conoce el lenguaje a fondo*
+  *Get to know the language in depth*
 
 - ✨ [**Effective Dart**](https://dart.dev/guides/language/effective-dart)  
-  *Código limpio y performante*
+  *Clean and performant code*
 
 - 🎮 [**DartPad**](https://dartpad.dev/)  
-  *Prueba código al instante*
+  *Test code instantly*
 
 - 📦 [**Pub.dev**](https://pub.dev/)  
-  *Miles de paquetes disponibles*
+  *Thousands of available packages*
 
 </td>
 </tr>
@@ -80,45 +80,45 @@ void main() {
 
 ---
 
-## ⚡ Arquitectura & Rendimiento
+## ⚡ Architecture & Performance
 
 <div align="center">
 
-| 🏛️ Concepto | 📝 Descripción | 🔗 Recurso |
+| 🏛️ Concept | 📝 Description | 🔗 Resource |
 |:---:|:---|:---:|
-| **State Management** | Provider, Riverpod, BLoC, GetX | [📚 Guía](https://docs.flutter.dev/development/data-and-backend/state-mgmt/intro) |
-| **Performance** | Mantén tus apps a 60/120 FPS | [⚡ Profiling](https://docs.flutter.dev/perf/ui-performance) |
-| **Navigation** | Routing avanzado y deep linking | [🗺️ Docs](https://docs.flutter.dev/development/ui/navigation) |
-| **Testing** | Unit, Widget e Integration tests | [🧪 Testing](https://docs.flutter.dev/testing) |
+| **State Management** | Provider, Riverpod, BLoC, GetX | [📚 Guide](https://docs.flutter.dev/development/data-and-backend/state-mgmt/intro) |
+| **Performance** | Keep your apps at 60/120 FPS | [⚡ Profiling](https://docs.flutter.dev/perf/ui-performance) |
+| **Navigation** | Advanced routing and deep linking | [🗺️ Docs](https://docs.flutter.dev/development/ui/navigation) |
+| **Testing** | Unit, Widget and Integration tests | [🧪 Testing](https://docs.flutter.dev/testing) |
 
 </div>
 
 ---
 
-## 🎨 Inspiración & Componentes
+## 🎨 Inspiration & Components
 
 ```
 ┌─────────────────────────────────────────┐
 │  🎨 Material Design 3                   │
 │  🍎 Cupertino (iOS Style)               │
 │  🎯 Custom Widgets                      │
-│  🌈 Animaciones Fluidas                 │
-│  📱 Responsive Design                   │
+│  🌈 Fluid Animations                    │
+│  📱 Responsive Design                    │
 └─────────────────────────────────────────┘
 ```
 
-- [**Material 3 Guidelines**](https://m3.material.io/) - Diseño moderno de Google
-- [**Flutter Gems**](https://fluttergems.dev/) - Catálogo de paquetes curados
-- [**Rive**](https://rive.app/) - Animaciones de nivel profesional
-- [**FlutterFlow**](https://flutterflow.io/) - Prototipado rápido visual
+- [**Material 3 Guidelines**](https://m3.material.io/) - Google's modern design
+- [**Flutter Gems**](https://fluttergems.dev/) - Curated package catalog
+- [**Rive**](https://rive.app/) - Professional-level animations
+- [**FlutterFlow**](https://flutterflow.io/) - Visual rapid prototyping
 
 ---
 
-## 🤝 Comunidad & Soporte
+## 🤝 Community & Support
 
 <div align="center">
 
-### ¡No programes solo! Únete a la comunidad global
+### Don't code alone! Join the global community
 
 [![Discord](https://img.shields.io/badge/Discord-Join%20Chat-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/n7Y99Z6)
 [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-Ask%20Question-F58025?style=for-the-badge&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/questions/tagged/flutter)
@@ -126,33 +126,33 @@ void main() {
 
 </div>
 
-#### 🌟 Recursos Adicionales
-- 📺 [Flutter YouTube Channel](https://www.youtube.com/c/flutterdev) - Tutoriales oficiales
-- 🐦 [Flutter Twitter](https://twitter.com/FlutterDev) - Últimas noticias
-- 📰 [Flutter Medium](https://medium.com/flutter) - Artículos de la comunidad
-- 💼 [Flutter Jobs](https://flutterjobs.info/) - Oportunidades laborales
+#### 🌟 Additional Resources
+- 📺 [Flutter YouTube Channel](https://www.youtube.com/c/flutterdev) - Official tutorials
+- 🐦 [Flutter Twitter](https://twitter.com/FlutterDev) - Latest news
+- 📰 [Flutter Medium](https://medium.com/flutter) - Community articles
+- 💼 [Flutter Jobs](https://flutterjobs.info/) - Job opportunities
 
 ---
 
 ## 🚀 Quick Start
 
 ```bash
-# Verifica tu instalación
+# Check your installation
 flutter doctor
 
-# Crea un nuevo proyecto
+# Create a new project
 flutter create my_awesome_app
 
-# Entra al directorio
+# Enter the directory
 cd my_awesome_app
 
-# Ejecuta en tu dispositivo/emulador
+# Run on your device/emulator
 flutter run
 ```
 
 ---
 
-## 📊 Estadísticas del Ecosistema
+## 📊 Ecosystem Statistics
 
 <div align="center">
 
@@ -172,8 +172,8 @@ flutter run
 
 ---
 
-Hecho con 💙 por la comunidad Flutter
+Made with 💙 by the Flutter community
 
-[⬆ Volver arriba](#-the-flutterverse-navigator-)
+[⬆ Back to top](#-the-flutterverse-navigator-)
 
 </div>
