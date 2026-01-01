@@ -1,29 +1,29 @@
 <div align="center">
 
-# 🛸 The Flutterverse Navigator 🌌
+# 🧪 Flutter Exercises – Beginner Level 🚀
 
-### *Your definitive compass to master Flutter and Dart*
+### *Your practical path to mastering Flutter from scratch*
 
-[![Flutter Version](https://img.shields.io/badge/Flutter-%3E%3D%203.0-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://docs.flutter.dev/)
-[![Dart Version](https://img.shields.io/badge/Dart-%3E%3D%203.0-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Flutter](https://img.shields.io/badge/Flutter-Beginner-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://docs.flutter.dev/)
+[![Dart](https://img.shields.io/badge/Dart-Basics-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
+[![Level](https://img.shields.io/badge/Level-Beginner-brightgreen?style=for-the-badge)]()
 
-**Build for any screen from a single codebase**  
-`iOS` • `Android` • `Web` • `Desktop` • `Embedded`
+**10 hands-on exercises to build your Flutter foundation**  
+`Widgets` • `Layouts` • `State` • `Navigation`
 
 ---
 
 </div>
 
-## 🎯 Why this resource?
+## 🎯 About This Guide
 
-Mastering Flutter isn't just about knowing widgets, it's about **understanding the reactive framework** and the **power of Dart** that drives it. This repository centralizes the "Bible" of official and community documentation to turn you into a cross-platform development master.
+This section contains a series of **practical Flutter exercises** designed for people who are starting from scratch. The goal is to solidify the basic concepts of **Dart**, **widgets**, **layouts**, and **state** through real, working code.
 
 ```dart
 void main() {
   runApp(
     MaterialApp(
-      home: YourDreamsApp(), // 👈 Start your journey here!
+      home: YourFirstApp(), // 👈 Your journey starts here!
     ),
   );
 }
@@ -31,48 +31,81 @@ void main() {
 
 ---
 
-## 🏗️ Pillars of Knowledge
+## 📌 Prerequisites
+
+<div align="center">
+
+| ✅ Requirement | 📝 Description |
+|:---:|:---|
+| **Flutter SDK** | Properly installed on your system |
+| **Code Editor** | VS Code or Android Studio recommended |
+| **Device** | Emulator or physical device running |
+| **Programming Basics** | Variables, functions, classes |
+
+</div>
+
+---
+
+## 🏋️ Exercise Breakdown
+
+```
+┌─────────────────────────────────────────┐
+│  🟢 Basic Widgets (Ex 1-4)              │
+│  🟡 Interactivity & State (Ex 5-7)      │
+│  🔵 Advanced Concepts (Ex 8-10)         │
+└─────────────────────────────────────────┘
+```
+
+---
+
+## 🟢 Basic Widgets
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 💙 **Flutter: The UI Toolkit**
+### **Exercise 1: Hello World in Flutter**
 
-> *"Beautiful, fast, and portable"*
+#### 🎯 Objective
+Create a Flutter application that displays centered text on the screen.
 
-#### 📚 Essential Documentation
-- 🎓 [**Official Documentation**](https://docs.flutter.dev/)  
-  *Your definitive starting point*
+#### 📋 Instructions
+- Create a new Flutter project
+- Use a `MaterialApp`
+- Display the text **"Hello Flutter 👋"** centered on the screen
 
-- 🍳 [**Flutter Cookbook**](https://docs.flutter.dev/cookbook)  
-  *Ready-to-use recipes*
-
-- 🎬 [**Widget of the Week**](https://www.youtube.com/playlist?list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG)  
-  *Learn visually in minutes*
-
-- 🗺️ [**Roadmap.sh Flutter**](https://roadmap.sh/flutter)  
-  *Your professional path visualized*
+#### 💡 Hints
+```dart
+// Widgets to use:
+Scaffold
+Center
+Text
+```
 
 </td>
 <td width="50%" valign="top">
 
-### 🎯 **Dart: The Engine**
+### **Exercise 2: Styled Text**
 
-> *"Optimized for UI, productive, fast"*
+#### 🎯 Objective
+Learn to apply styles to a `Text`.
 
-#### 🚀 Fundamental Resources
-- 📖 [**Language Tour**](https://dart.dev/guides/language/language-tour)  
-  *Get to know the language in depth*
+#### 📋 Instructions
+- Display a text with:
+  - Size 24
+  - Blue color
+  - Bold
+- Center the text on the screen
 
-- ✨ [**Effective Dart**](https://dart.dev/guides/language/effective-dart)  
-  *Clean and performant code*
-
-- 🎮 [**DartPad**](https://dartpad.dev/)  
-  *Test code instantly*
-
-- 📦 [**Pub.dev**](https://pub.dev/)  
-  *Thousands of available packages*
+#### 💡 Hints
+```dart
+// Use TextStyle:
+TextStyle(
+  fontSize: 24,
+  color: Colors.blue,
+  fontWeight: FontWeight.bold,
+)
+```
 
 </td>
 </tr>
@@ -80,85 +113,294 @@ void main() {
 
 ---
 
-## ⚡ Architecture & Performance
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### **Exercise 3: Column of Texts**
+
+#### 🎯 Objective
+Work with vertical layouts.
+
+#### 📋 Instructions
+- Display three texts one below the other:
+  - "Flutter"
+  - "is"
+  - "awesome 🚀"
+- Center the column vertically and horizontally
+
+#### 💡 Hints
+```dart
+// Use Column:
+Column(
+  mainAxisAlignment: MainAxisAlignment.center,
+  crossAxisAlignment: CrossAxisAlignment.center,
+  children: [...]
+)
+```
+
+</td>
+<td width="50%" valign="top">
+
+### **Exercise 4: Image from the Internet**
+
+#### 🎯 Objective
+Display images in Flutter.
+
+#### 📋 Instructions
+- Display an image from a URL
+- It must have a maximum width of 200 px
+
+#### 💡 Hints
+```dart
+// Use Image.network:
+Image.network(
+  'https://example.com/image.png',
+  width: 200,
+)
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🟡 Interactivity & State
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### **Exercise 5: Button and Action**
+
+#### 🎯 Objective
+Detect user interaction.
+
+#### 📋 Instructions
+- Add a button
+- When pressed, show a `SnackBar` with the text:
+  > "Button pressed"
+
+#### 💡 Hints
+```dart
+// Use ElevatedButton:
+ElevatedButton(
+  onPressed: () {
+    ScaffoldMessenger.of(context)
+      .showSnackBar(...);
+  },
+  child: Text('Press Me'),
+)
+```
+
+</td>
+<td width="50%" valign="top">
+
+### **Exercise 6: Simple Counter**
+
+#### 🎯 Objective
+Introduction to state in Flutter.
+
+#### 📋 Instructions
+- Create a counter that:
+  - Starts at 0
+  - Has a button to increment
+  - Displays the value on screen
+
+#### 💡 Hints
+```dart
+// Use StatefulWidget:
+class Counter extends StatefulWidget {
+  // Use setState() to update UI
+}
+```
+
+</td>
+</tr>
+</table>
+
+---
 
 <div align="center">
 
-| 🏛️ Concept | 📝 Description | 🔗 Resource |
-|:---:|:---|:---:|
-| **State Management** | Provider, Riverpod, BLoC, GetX | [📚 Guide](https://docs.flutter.dev/development/data-and-backend/state-mgmt/intro) |
-| **Performance** | Keep your apps at 60/120 FPS | [⚡ Profiling](https://docs.flutter.dev/perf/ui-performance) |
-| **Navigation** | Advanced routing and deep linking | [🗺️ Docs](https://docs.flutter.dev/development/ui/navigation) |
-| **Testing** | Unit, Widget and Integration tests | [🧪 Testing](https://docs.flutter.dev/testing) |
+### **Exercise 7: List of Elements**
+
+#### 🎯 Objective
+Work with dynamic lists.
+
+#### 📋 Instructions
+- Display a list with at least 5 text elements
+- Each element must be a `ListTile`
+
+#### 💡 Hints
+```dart
+// Use ListView:
+ListView(
+  children: [
+    ListTile(title: Text('Item 1')),
+    ListTile(title: Text('Item 2')),
+    // ...
+  ],
+)
+
+// Or use ListView.builder for dynamic lists
+```
 
 </div>
 
 ---
 
-## 🎨 Inspiration & Components
+## 🔵 Advanced Concepts
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### **Exercise 8: Custom Card**
+
+#### 🎯 Objective
+Learn to use `Card`.
+
+#### 📋 Instructions
+- Create a `Card` with:
+  - Internal padding
+  - A title
+  - A description
+- Center the card on the screen
+
+#### 💡 Hints
+```dart
+// Use Card widget:
+Card(
+  child: Padding(
+    padding: EdgeInsets.all(16),
+    child: Column(...),
+  ),
+)
+```
+
+</td>
+<td width="50%" valign="top">
+
+### **Exercise 9: Navigation Between Screens**
+
+#### 🎯 Objective
+Navigate between two screens.
+
+#### 📋 Instructions
+- Screen A with a button
+- When pressed, navigate to Screen B
+- On Screen B display a text
+
+#### 💡 Hints
+```dart
+// Use Navigator.push:
+Navigator.push(
+  context,
+  MaterialPageRoute(
+    builder: (context) => ScreenB(),
+  ),
+);
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+## 🏆 Exercise 10: Final Mini Challenge
+
+### 🎯 Objective
+Apply everything learned.
+
+### 📋 Instructions
+Create an app that has:
+
+| Component | Description |
+|:---:|:---|
+| **AppBar** | With a title |
+| **Counter** | Starting at 0 |
+| **Button** | To increment the counter |
+| **Dynamic List** | That grows with each button press |
+
+### 💡 Hints
+```dart
+// Combine concepts:
+// - StatefulWidget
+// - List management
+// - setState()
+// - ListView.builder
+```
+
+</div>
+
+---
+
+## ✅ Recommendations
+
+<div align="center">
+
+### Best practices to maximize your learning
+
+| 💎 Recommendation | 📝 Why it matters |
+|:---|:---|
+| **Don't copy and paste** | Type the code yourself to build muscle memory |
+| **Experiment with values** | Change colors, sizes, and see what happens |
+| **Break things intentionally** | Learn by fixing errors |
+| **Read error messages** | They're your best teacher |
+| **Consult documentation** | [docs.flutter.dev](https://docs.flutter.dev/) is your friend |
+
+</div>
+
+---
+
+## 🚀 Next Steps
+
+<div align="center">
 
 ```
 ┌─────────────────────────────────────────┐
-│  🎨 Material Design 3                   │
-│  🍎 Cupertino (iOS Style)               │
-│  🎯 Custom Widgets                      │
-│  🌈 Fluid Animations                    │
-│  📱 Responsive Design                    │
+│  ✨ After completing these exercises:   │
+│                                          │
+│  📦 Refactor your code                   │
+│  🧩 Practice widget separation           │
+│  🔄 Master StatelessWidget vs            │
+│     StatefulWidget                       │
+│  🎨 Explore advanced layouts             │
+│  📚 Study state management patterns      │
 └─────────────────────────────────────────┘
 ```
 
-- [**Material 3 Guidelines**](https://m3.material.io/) - Google's modern design
-- [**Flutter Gems**](https://fluttergems.dev/) - Curated package catalog
-- [**Rive**](https://rive.app/) - Professional-level animations
-- [**FlutterFlow**](https://flutterflow.io/) - Visual rapid prototyping
+### 📚 Continue Your Journey
 
----
-
-## 🤝 Community & Support
-
-<div align="center">
-
-### Don't code alone! Join the global community
-
-[![Discord](https://img.shields.io/badge/Discord-Join%20Chat-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/n7Y99Z6)
-[![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-Ask%20Question-F58025?style=for-the-badge&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/questions/tagged/flutter)
-[![GitHub](https://img.shields.io/badge/GitHub-Issues-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/flutter/flutter/issues)
+[![Flutter Docs](https://img.shields.io/badge/Flutter-Documentation-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://docs.flutter.dev/)
+[![Dart Tour](https://img.shields.io/badge/Dart-Language%20Tour-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/guides/language/language-tour)
+[![Cookbook](https://img.shields.io/badge/Flutter-Cookbook-20232A?style=for-the-badge&logo=flutter&logoColor=61DAFB)](https://docs.flutter.dev/cookbook)
 
 </div>
 
-#### 🌟 Additional Resources
-- 📺 [Flutter YouTube Channel](https://www.youtube.com/c/flutterdev) - Official tutorials
-- 🐦 [Flutter Twitter](https://twitter.com/FlutterDev) - Latest news
-- 📰 [Flutter Medium](https://medium.com/flutter) - Community articles
-- 💼 [Flutter Jobs](https://flutterjobs.info/) - Job opportunities
-
 ---
 
-## 🚀 Quick Start
-
-```bash
-# Check your installation
-flutter doctor
-
-# Create a new project
-flutter create my_awesome_app
-
-# Enter the directory
-cd my_awesome_app
-
-# Run on your device/emulator
-flutter run
-```
-
----
-
-## 📊 Ecosystem Statistics
+## 📊 Progress Tracker
 
 <div align="center">
 
-![Flutter Stats](https://img.shields.io/badge/⭐_Stars-160k+-blue?style=flat-square)
-![Packages](https://img.shields.io/badge/📦_Packages-45k+-green?style=flat-square)
-![Contributors](https://img.shields.io/badge/👥_Contributors-1.5k+-orange?style=flat-square)
+Track your journey through the exercises:
+
+![Exercise 1](https://img.shields.io/badge/Ex%201-Hello%20World-brightgreen?style=flat-square)
+![Exercise 2](https://img.shields.io/badge/Ex%202-Styled%20Text-brightgreen?style=flat-square)
+![Exercise 3](https://img.shields.io/badge/Ex%203-Column-brightgreen?style=flat-square)
+![Exercise 4](https://img.shields.io/badge/Ex%204-Images-brightgreen?style=flat-square)
+![Exercise 5](https://img.shields.io/badge/Ex%205-Buttons-yellow?style=flat-square)
+![Exercise 6](https://img.shields.io/badge/Ex%206-Counter-yellow?style=flat-square)
+![Exercise 7](https://img.shields.io/badge/Ex%207-Lists-yellow?style=flat-square)
+![Exercise 8](https://img.shields.io/badge/Ex%208-Cards-blue?style=flat-square)
+![Exercise 9](https://img.shields.io/badge/Ex%209-Navigation-blue?style=flat-square)
+![Exercise 10](https://img.shields.io/badge/Ex%2010-Challenge-blue?style=flat-square)
 
 </div>
 
@@ -166,14 +408,14 @@ flutter run
 
 <div align="center">
 
-### 💙 *"The only way to do great work is to love what you do."*
+### 💙 *"The expert in anything was once a beginner."*
 
-**Keep Fluttering! 🦋✨**
+**Happy learning and enjoy Flutter! 🦋✨**
 
 ---
 
-Made with 💙 by the Flutter community
+Made with 💙 for Flutter beginners
 
-[⬆ Back to top](#-the-flutterverse-navigator-)
+[⬆ Back to top](#-flutter-exercises--beginner-level-)
 
 </div>
