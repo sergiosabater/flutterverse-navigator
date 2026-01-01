@@ -1,190 +1,130 @@
-# 🧪 Ejercicios de Flutter – Nivel Principiante
-
-Este apartado contiene una serie de **ejercicios prácticos de Flutter** pensados para personas que están empezando desde cero.  
-El objetivo es afianzar los conceptos básicos de **Dart**, **widgets**, **layouts** y **estado**.
-
+# 🧪 Flutter Exercises – Beginner Level
+This section contains a series of **practical Flutter exercises** designed for people who are starting from scratch.  
+The goal is to solidify the basic concepts of **Dart**, **widgets**, **layouts**, and **state**.
 ---
-
-## 📌 Requisitos previos
-
-Antes de empezar, asegúrate de tener:
-
-- Flutter instalado correctamente
-- Un editor de código (VS Code o Android Studio)
-- Un emulador o dispositivo físico funcionando
-- Conocimientos básicos de programación (variables, funciones, clases)
-
+## 📌 Prerequisites
+Before you begin, make sure you have:
+- Flutter properly installed
+- A code editor (VS Code or Android Studio)
+- An emulator or physical device running
+- Basic programming knowledge (variables, functions, classes)
 ---
-
-## 🟢 Ejercicio 1: Hola Mundo en Flutter
-
-### 🎯 Objetivo
-Crear una aplicación Flutter que muestre un texto centrado en pantalla.
-
-### 📋 Instrucciones
-- Crea un nuevo proyecto Flutter
-- Usa un `MaterialApp`
-- Muestra el texto **"Hola Flutter 👋"** centrado en la pantalla
-
-### 💡 Pistas
-- Widgets a usar: `Scaffold`, `Center`, `Text`
-
+## 🟢 Exercise 1: Hello World in Flutter
+### 🎯 Objective
+Create a Flutter application that displays centered text on the screen.
+### 📋 Instructions
+- Create a new Flutter project
+- Use a `MaterialApp`
+- Display the text **"Hello Flutter 👋"** centered on the screen
+### 💡 Hints
+- Widgets to use: `Scaffold`, `Center`, `Text`
 ---
-
-## 🟢 Ejercicio 2: Texto con estilo
-
-### 🎯 Objetivo
-Aprender a aplicar estilos a un `Text`.
-
-### 📋 Instrucciones
-- Muestra un texto con:
-  - Tamaño 24
-  - Color azul
-  - Negrita
-- Centra el texto en la pantalla
-
-### 💡 Pistas
-- Usa `TextStyle`
-
+## 🟢 Exercise 2: Styled Text
+### 🎯 Objective
+Learn to apply styles to a `Text`.
+### 📋 Instructions
+- Display a text with:
+  - Size 24
+  - Blue color
+  - Bold
+- Center the text on the screen
+### 💡 Hints
+- Use `TextStyle`
 ---
-
-## 🟢 Ejercicio 3: Columna de textos
-
-### 🎯 Objetivo
-Trabajar con layouts verticales.
-
-### 📋 Instrucciones
-- Muestra tres textos uno debajo del otro:
+## 🟢 Exercise 3: Column of Texts
+### 🎯 Objective
+Work with vertical layouts.
+### 📋 Instructions
+- Display three texts one below the other:
   - "Flutter"
-  - "es"
-  - "genial 🚀"
-- Centra la columna vertical y horizontalmente
-
-### 💡 Pistas
-- Usa `Column`
-- Propiedades: `mainAxisAlignment`, `crossAxisAlignment`
-
+  - "is"
+  - "awesome 🚀"
+- Center the column vertically and horizontally
+### 💡 Hints
+- Use `Column`
+- Properties: `mainAxisAlignment`, `crossAxisAlignment`
 ---
-
-## 🟢 Ejercicio 4: Imagen desde Internet
-
-### 🎯 Objetivo
-Mostrar imágenes en Flutter.
-
-### 📋 Instrucciones
-- Muestra una imagen desde una URL
-- Debe tener un ancho máximo de 200 px
-
-### 💡 Pistas
-- Usa `Image.network`
-
+## 🟢 Exercise 4: Image from the Internet
+### 🎯 Objective
+Display images in Flutter.
+### 📋 Instructions
+- Display an image from a URL
+- It must have a maximum width of 200 px
+### 💡 Hints
+- Use `Image.network`
 ---
-
-## 🟡 Ejercicio 5: Botón y acción
-
-### 🎯 Objetivo
-Detectar interacción del usuario.
-
-### 📋 Instrucciones
-- Añade un botón
-- Al pulsarlo, muestra un `SnackBar` con el texto:
-  > "Botón pulsado"
-
-### 💡 Pistas
-- Usa `ElevatedButton`
-- Usa `ScaffoldMessenger`
-
+## 🟡 Exercise 5: Button and Action
+### 🎯 Objective
+Detect user interaction.
+### 📋 Instructions
+- Add a button
+- When pressed, show a `SnackBar` with the text:
+  > "Button pressed"
+### 💡 Hints
+- Use `ElevatedButton`
+- Use `ScaffoldMessenger`
 ---
-
-## 🟡 Ejercicio 6: Contador simple
-
-### 🎯 Objetivo
-Introducción al estado en Flutter.
-
-### 📋 Instrucciones
-- Crea un contador que:
-  - Empiece en 0
-  - Tenga un botón para incrementar
-  - Muestre el valor en pantalla
-
-### 💡 Pistas
-- Usa `StatefulWidget`
-- Usa `setState()`
-
+## 🟡 Exercise 6: Simple Counter
+### 🎯 Objective
+Introduction to state in Flutter.
+### 📋 Instructions
+- Create a counter that:
+  - Starts at 0
+  - Has a button to increment
+  - Displays the value on screen
+### 💡 Hints
+- Use `StatefulWidget`
+- Use `setState()`
 ---
-
-## 🟡 Ejercicio 7: Lista de elementos
-
-### 🎯 Objetivo
-Trabajar con listas dinámicas.
-
-### 📋 Instrucciones
-- Muestra una lista con al menos 5 elementos de texto
-- Cada elemento debe ser un `ListTile`
-
-### 💡 Pistas
-- Usa `ListView`
-- Usa una lista de `String`
-
+## 🟡 Exercise 7: List of Elements
+### 🎯 Objective
+Work with dynamic lists.
+### 📋 Instructions
+- Display a list with at least 5 text elements
+- Each element must be a `ListTile`
+### 💡 Hints
+- Use `ListView`
+- Use a list of `String`
 ---
-
-## 🔵 Ejercicio 8: Card personalizada
-
-### 🎯 Objetivo
-Aprender a usar `Card`.
-
-### 📋 Instrucciones
-- Crea una `Card` con:
-  - Padding interno
-  - Un título
-  - Una descripción
-- Centra la card en pantalla
-
+## 🔵 Exercise 8: Custom Card
+### 🎯 Objective
+Learn to use `Card`.
+### 📋 Instructions
+- Create a `Card` with:
+  - Internal padding
+  - A title
+  - A description
+- Center the card on the screen
 ---
-
-## 🔵 Ejercicio 9: Navegación entre pantallas
-
-### 🎯 Objetivo
-Navegar entre dos pantallas.
-
-### 📋 Instrucciones
-- Pantalla A con un botón
-- Al pulsarlo, navega a Pantalla B
-- En Pantalla B muestra un texto
-
-### 💡 Pistas
-- Usa `Navigator.push`
-
+## 🔵 Exercise 9: Navigation Between Screens
+### 🎯 Objective
+Navigate between two screens.
+### 📋 Instructions
+- Screen A with a button
+- When pressed, navigate to Screen B
+- On Screen B display a text
+### 💡 Hints
+- Use `Navigator.push`
 ---
-
-## 🔵 Ejercicio 10: Mini reto final
-
-### 🎯 Objetivo
-Aplicar todo lo aprendido.
-
-### 📋 Instrucciones
-Crea una app que tenga:
-- Un `AppBar`
-- Un contador
-- Un botón para incrementar
-- Una lista que vaya creciendo con cada pulsación
-
+## 🔵 Exercise 10: Final Mini Challenge
+### 🎯 Objective
+Apply everything learned.
+### 📋 Instructions
+Create an app that has:
+- An `AppBar`
+- A counter
+- A button to increment
+- A list that grows with each press
 ---
-
-## ✅ Recomendaciones
-
-- No copies y pegues código sin entenderlo
-- Experimenta cambiando valores
-- Rompe cosas y arréglalas 😄
-- Consulta la documentación oficial de Flutter
-
+## ✅ Recommendations
+- Don't copy and paste code without understanding it
+- Experiment by changing values
+- Break things and fix them 😄
+- Consult the official Flutter documentation
 ---
-
-## 🚀 Siguiente paso
-
-Cuando termines estos ejercicios:
-- Refactoriza el código
-- Prueba a separar widgets
-- Aprende sobre `StatelessWidget` vs `StatefulWidget`
-
-¡Buen aprendizaje y a disfrutar de Flutter! 💙
+## 🚀 Next Step
+When you finish these exercises:
+- Refactor the code
+- Try separating widgets
+- Learn about `StatelessWidget` vs `StatefulWidget`
+Happy learning and enjoy Flutter! 💙
